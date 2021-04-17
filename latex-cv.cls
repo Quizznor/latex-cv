@@ -267,6 +267,7 @@
 	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}}{\end{tabular*}
 }
 
+% Long cv item {year}{title}{location}{description}
 \newcommand{\cvlongitem}[4]{%
 	\small#1&\parbox[t]{0.83\textwidth}{%
 		\large\textbf{#2}%
@@ -276,6 +277,7 @@
 	} \\
 }
 
+% Short cv item {year}{title}{location}
 \newcommand{\cvshortitem}[3]{%
 	\small#1&\parbox[t]{0.83\textwidth}{%
 		#2%
